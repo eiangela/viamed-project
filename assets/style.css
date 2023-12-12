@@ -1,0 +1,10 @@
+:root {
+    --main-font-family: "Roboto";
+    --orange-main: #F23900;
+    --orange-alternative: #F65B00;
+    --color-title: #873a10;
+}
+
+body {
+    font-family: var(--main-font-family);
+}
