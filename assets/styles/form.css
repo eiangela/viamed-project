@@ -1,0 +1,131 @@
+/* form */
+.form {
+  background-color: #e9eceb;
+  padding: 4%;
+}
+
+.card-container {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0px 0px 72px -100px rgba(0, 0, 0, 0.1),
+    0px 0px 50px 0px rgba(0, 0, 0, 0.1);
+  height: 950px;
+  margin: 20px;
+  margin: auto;
+  padding: 1.25rem;
+  padding: 2rem;
+  width: 800px;
+}
+
+.card-container__title {
+  border-bottom: 2px solid;
+  color: var(--orange-tom-two);
+  font-size: 54px;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+/* form name */
+.card-container__info__sub {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.card-container__info__subject {
+  margin-top: 20px;
+}
+
+.card-container__info__subject label {
+  color: #000;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 50px;
+}
+
+.card-container__info__subject input {
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  margin-top: 10px;
+  padding: 10px;
+  width: 97%;
+}
+
+/* form email e phone */
+.card-form__info {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card-form__info__item {
+  font-size: 20px;
+  font-weight: 700;
+  margin-top: 20px;
+  width: 48%;
+}
+
+.card-form__info__item label,
+.card-form__info__item input {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.card-form__info__item input {
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  margin-top: 10px;
+  padding: 10px;
+  width: 94%;
+}
+
+/* checkboxes */
+.checkboxes__questions {
+  margin-top: 30px;
+}
+
+.checkboxes__questions__paragraph {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 10px;
+}
+
+.checkboxes__questions__check {
+  display: flex;
+}
+
+.checkboxes__questions__check label {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: normal;
+  margin-right: 10px;
+}
+
+.checkboxes__questions__check input {
+  margin-right: 5px;
+}
+
+/* button */
+
+.button-send {
+  align-items: center;
+  background-color: var(--orange-tom);
+  box-shadow: -6px 4px 4px 0px #b7bcbb;
+  border-radius: 12px;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  display: flex;
+  font-size: 24px;
+  font-weight: 700;
+  height: 62px;
+  justify-content: center;
+  margin: auto;
+  margin-top: 30px;
+  padding: 6px 25px;
+  text-transform: uppercase;
+  width: 140px;
+}

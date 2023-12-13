@@ -1,0 +1,50 @@
+.container-central {
+  display: flex;
+}
+
+.container-central__texts {
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+  margin-left: 9%;
+  margin-top: 2%;
+}
+
+.container-central__title {
+  color: var(--orange-title);
+  font-size: 63px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 24px;
+  text-transform: uppercase;
+}
+
+.container-central__paragraph {
+  color: var(--color-gray);
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.container-central__title-sub {
+  color: var(--orange-tom);
+  font-size: 48px;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+
+.container-central__paragraph-sub {
+  color: var(--color-gray);
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.container-central__woman {
+  margin-top: 35%;
+}
