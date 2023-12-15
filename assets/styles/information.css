@@ -29,3 +29,13 @@
   height: 200px;
   margin-right: 45px;
 }
+
+@media screen and (min-width: 1200px) {
+  .information-container__text {
+    font-size: 20px;
+  }
+
+  .information-container__icon {
+    width: 110px;
+  }
+}

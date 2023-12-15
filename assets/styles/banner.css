@@ -3,6 +3,7 @@
 }
 
 .container-banner {
+  align-items: center;
   display: flex;
   justify-content: space-around;
   padding: 2%;
@@ -113,4 +114,54 @@
   padding: 1rem 2rem;
   text-decoration: none;
   text-transform: uppercase;
+}
+
+@media screen and (min-width: 1200px) {
+  .container-banner__title {
+    font-size: 60px;
+  }
+
+  .container-banner__paragraph {
+    font-size: 35px;
+  }
+
+  .banner__anchor__link {
+    font-size: 35px;
+  }
+
+  .banner-info {
+    justify-content: space-between;
+  }
+
+  .circle {
+    width: 170px;
+  }
+
+  .img-girls {
+    width: 670px;
+  }
+
+  .more-than {
+    font-size: 24px;
+  }
+
+  .two-thousand {
+   font-size: 35px;
+  }
+
+  .banner-info__paragraph {
+    font-size: 22px;
+  }
+
+  .doctor {
+    font-size: 38px;
+  }
+
+  .text {
+    font-size: 18px;
+  }
+
+  .text-main {
+    margin-top: -8%;
+  }
 }

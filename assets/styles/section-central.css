@@ -48,3 +48,26 @@
 .container-central__woman {
   margin-top: 35%;
 }
+
+@media screen and (min-width: 1200px) {
+  .container-central__title {
+    font-size: 44px;
+  }
+
+  .container-central__woman {
+    width: 750px;
+    margin-top: 14%;
+  }
+
+  .container-central__paragraph {
+    font-size: 32px;
+  }
+
+  .container-central__title-sub {
+    font-size: 40px;
+  }
+
+  .container-central__paragraph-sub {
+    font-size: 22px;
+  }
+}
