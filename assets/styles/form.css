@@ -19,7 +19,7 @@
 
 .card-container__title {
   border-bottom: 2px solid;
-  color: var(--orange-tom-two);
+  color: var(--orange-main);
   font-size: 54px;
   font-weight: 700;
   line-height: normal;
@@ -128,4 +128,63 @@
   padding: 6px 25px;
   text-transform: uppercase;
   width: 140px;
+}
+
+@media screen and (min-width: 1200px) {
+  .card-container {
+    height: 870px;
+  }
+
+  .card-container__title {
+    font-size: 50px;
+  }
+
+  .card-container__info__subject label,
+  .card-form__info__item,
+  .checkboxes__questions__paragraph,
+  .checkboxes__questions__check label {
+    font-size: 17px;
+  }
+
+  .button-send {
+    font-size: 20px;
+    height: 50px;
+    width: 120px;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .form {
+    padding: 2%;
+  }
+
+  .card-container {
+    width: 342px;
+  }
+
+  .card-container__title {
+    font-size: 28px;
+  }
+
+  .card-container__info__subject label,
+  .card-form__info__item label {
+    font-size: 16px;
+  }
+
+  .card-form__info {
+    flex-direction: column;
+  }
+
+  .card-container__info__subject input {
+    width: 94%;
+  }
+
+  .card-form__info__item {
+    width: 100%;
+  }
+
+  .checkboxes__questions__paragraph,
+  .checkboxes__questions__check label {
+    font-size: 16px;
+  }
 }

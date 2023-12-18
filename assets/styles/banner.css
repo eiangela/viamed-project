@@ -72,7 +72,6 @@
   color: var(--orange-main);
   font-weight: 700;
   font-size: 70px;
-  margin-left: 20%;
   text-align: center;
   text-transform: uppercase;
   white-space: normal;
@@ -146,7 +145,7 @@
   }
 
   .two-thousand {
-   font-size: 35px;
+    font-size: 35px;
   }
 
   .banner-info__paragraph {
@@ -162,6 +161,53 @@
   }
 
   .text-main {
-    margin-top: -8%;
+    margin-top: -1%;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .container-banner {
+    padding: 0;
+  }
+
+  .banner-info {
+    display: none;
+  }
+
+  .container-banner {
+    flex-direction: column;
+  }
+
+  .img-girls {
+    width: 355px;
+    margin-left: 0;
+    margin-top: 5%;
+  }
+
+  .container__banner__info {
+    width: 100%;
+    text-align: center;
+  }
+
+  .text-main {
+    font-size: 46px;
+    margin-top: -2%;
+    margin: auto auto;
+  }
+
+  .container-banner__title {
+    font-size: 50px;
+  }
+
+  .container-banner__paragraph {
+    font-size: 32px;
+  }
+
+  .banner__anchor {
+    margin: 40px;
+  }
+
+  .banner__anchor__link {
+    font-size: 32px;
   }
 }

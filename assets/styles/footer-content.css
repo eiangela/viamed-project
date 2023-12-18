@@ -1,0 +1,92 @@
+/* all */
+.footer-content {
+  background-color: var(--orange-main);
+  padding: 2%;
+  color: #fff;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+/* logo */
+.footer-container__logo__img {
+  display: flex;
+  align-items: center;
+}
+
+/* central */
+.footer-container__cont {
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 32px;
+  line-height: normal;
+  font-weight: 400;
+}
+
+.footer-container__whatsapp {
+  font-size: 24px;
+  font-weight: 400;
+  line-height: normal;
+  text-align: center;
+}
+
+.footer-container__group {
+  display: flex;
+  gap: 8px;
+  margin: 24px;
+}
+
+.footer-container__group-info__pararagraph {
+  text-align: center;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+}
+
+.footer-container__group-info {
+  border: 2px solid var(--white, #fff);
+  padding: 2%;
+  width: 324px;
+}
+
+.footer-container__politc {
+  text-align: center;
+}
+
+.footer-container__politc__link {
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.footer-container__politc__link:visited {
+    color: #fff;
+  }
+
+/* social medias */
+.footer-container__links {
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+}
+
+.footer-container__links__paragraph {
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 24px;
+}
+
+.footer-container__social-media {
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+  
+  .footer-container__links img {
+    vertical-align: middle;
+  }

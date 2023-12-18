@@ -56,7 +56,7 @@
 
   .container-central__woman {
     width: 750px;
-    margin-top: 14%;
+    margin-top: 8%;
   }
 
   .container-central__paragraph {
@@ -69,5 +69,37 @@
 
   .container-central__paragraph-sub {
     font-size: 22px;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .container-central__woman {
+    display: none;
+  }
+
+  .container-central__texts {
+    margin-left: 0;
+    padding: 3%;
+    margin-top: 0;
+  }
+
+  .container-central__title {
+    font-size: 42px;
+    text-align: center;
+  }
+
+  .container-central__paragraph {
+    font-size: 28px;
+    text-align: center;
+  }
+
+  .container-central__title-sub {
+    font-size: 35px;
+    text-align: center;
+  }
+
+  .container-central__paragraph-sub {
+    font-size: 22px;
+    text-align: center;
   }
 }

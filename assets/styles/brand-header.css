@@ -11,3 +11,9 @@
   width: 240px;
   margin-left: 10%;
 }
+
+@media screen and (max-width: 720px) {
+  .logo {
+    width: 180px;
+  }
+}
