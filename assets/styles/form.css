@@ -2,6 +2,8 @@
 .form {
   background-color: #e9eceb;
   padding: 4%;
+  display: flex;
+  justify-content: center;
 }
 
 .card-container {
