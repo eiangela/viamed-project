@@ -160,6 +160,7 @@
 
   .card-container {
     width: 342px;
+    height: 910px;
   }
 
   .card-container__title {
@@ -186,5 +187,10 @@
   .checkboxes__questions__paragraph,
   .checkboxes__questions__check label {
     font-size: 16px;
+  }
+
+  .button-send {
+    font-size: 20px;
+    height: 46px;
   }
 }

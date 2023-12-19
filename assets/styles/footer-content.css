@@ -63,30 +63,64 @@
 }
 
 .footer-container__politc__link:visited {
-    color: #fff;
-  }
+  color: #fff;
+}
 
 /* social medias */
 .footer-container__links {
-    display: flex;
-    flex-direction: column;
-    gap: 13px;
+  display: flex;
+  flex-direction: column;
+  gap: 13px;
 }
 
 .footer-container__links__paragraph {
-    font-size: 20px;
-    font-weight: 400;
-    margin-bottom: 24px;
+  font-size: 20px;
+  font-weight: 400;
+  margin-bottom: 24px;
 }
 
 .footer-container__social-media {
-    text-decoration: none;
-    color: #fff;
-    font-size: 20px;
-    font-weight: 400;
+  text-decoration: none;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 400;
 }
 
-  
-  .footer-container__links img {
-    vertical-align: middle;
+.footer-container__links img {
+  vertical-align: middle;
+}
+
+@media screen and (max-width: 720px) {
+  .footer-container__logo__img {
+    display: none;
   }
+
+  .footer-container,
+  .footer-container__group {
+    flex-direction: column;
+
+  }
+
+  .footer-container__cont {
+    font-size: 28px;
+  }
+
+  .footer-container__whatsapp {
+    font-size: 20px;
+    }
+
+    .footer-container__group-info {
+      width: auto;
+      height: 50px;
+    }
+
+    .footer-container__links__paragraph {
+      margin-top: 24px;
+    }
+
+    .footer-container__social-media {
+      text-align: center;
+    }
+
+
+}
