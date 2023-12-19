@@ -84,22 +84,22 @@
   }
 
   .container-central__title {
-    font-size: 42px;
+    font-size: 38px;
     text-align: center;
   }
 
   .container-central__paragraph {
-    font-size: 28px;
+    font-size: 26px;
     text-align: center;
   }
 
   .container-central__title-sub {
-    font-size: 35px;
+    font-size: 32px;
     text-align: center;
   }
 
   .container-central__paragraph-sub {
-    font-size: 22px;
+    font-size: 18px;
     text-align: center;
   }
 }

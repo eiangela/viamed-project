@@ -58,10 +58,11 @@
   .information-container__icon {
     margin-right: 0;
     margin-bottom: 15px;
-    width: 110px;
+    width: 100px;
   }
 
   .information-container__text {
+    font-size: 26px;
     margin-right: 0;
     margin-bottom: 65px;
   }

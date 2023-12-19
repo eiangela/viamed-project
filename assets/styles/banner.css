@@ -196,11 +196,11 @@
   }
 
   .container-banner__title {
-    font-size: 50px;
+    font-size: 44px;
   }
 
   .container-banner__paragraph {
-    font-size: 32px;
+    font-size: 28px;
   }
 
   .banner__anchor {
@@ -208,6 +208,6 @@
   }
 
   .banner__anchor__link {
-    font-size: 32px;
+    font-size: 25px;
   }
 }
