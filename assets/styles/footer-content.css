@@ -122,5 +122,8 @@
       text-align: center;
     }
 
+    .footer-container__politc__link:visited {
+      color: #fff;
+    }
 
 }
