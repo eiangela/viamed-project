@@ -30,7 +30,7 @@
   margin-right: 45px;
 }
 
-@media (min-width: 1200px) {
+@media (max-width: 1200px) {
   .information-container__text {
     font-size: 20px;
   }
