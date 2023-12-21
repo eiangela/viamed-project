@@ -91,7 +91,7 @@
   vertical-align: middle;
 }
 
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 768px) {
   .footer-container__logo__img {
     display: none;
   }

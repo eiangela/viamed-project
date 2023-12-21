@@ -49,7 +49,7 @@
   margin-top: 35%;
 }
 
-@media screen and (min-width: 1200px) {
+@media (min-width: 1200px) {
   .container-central__title {
     font-size: 44px;
   }
@@ -72,7 +72,9 @@
   }
 }
 
-@media screen and (max-width: 720px) {
+
+/* smartphone */
+@media screen and (max-width: 768px) {
   .container-central__woman {
     display: none;
   }

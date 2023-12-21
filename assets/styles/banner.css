@@ -18,16 +18,31 @@
   justify-content: space-evenly;
 }
 
-.banner-info__circle {
+.banner-info__circle-one,
+.banner-info__circle-two,
+.banner-info__circle-tree {
   position: relative;
   text-align: center;
+}
+
+.banner-info__circle-one {
+  margin-left: -19px;
+  margin-top: 110px;
+
+}
+
+.banner-info__circle-tree {
+  margin-right: -10px;
+  margin-top: 95px;
+
 }
 
 .circle {
   width: 200px;
 }
 
-.banner-info__paragraph {
+.banner-info__paragraph,
+.banner-info__paragraph-two {
   color: white;
   font-size: 24px;
   left: 50%;
@@ -35,6 +50,11 @@
   top: 45%;
   transform: translate(-50%, -50%);
   text-transform: uppercase;
+}
+
+.banner-info__paragraph-two {
+  margin-top: -50px;
+  font-size: 22px;
 }
 
 .more-than {
@@ -65,7 +85,9 @@
 }
 
 .img-girls {
-  margin-left: 14%;
+  margin-left: 11%;
+  z-index: 12px;
+  position: relative;
 }
 
 .text-main {
@@ -74,6 +96,7 @@
   font-size: 70px;
   text-align: center;
   text-transform: uppercase;
+  margin-left: -42px;
   white-space: normal;
 }
 
@@ -115,7 +138,22 @@
   text-transform: uppercase;
 }
 
-@media screen and (min-width: 1200px) {
+.flowers {
+  display: flex;
+}
+
+.flowers__one {
+  width: 257px;
+	margin-top: -166px;
+}
+
+.flowers__two {
+  width: 257px;
+	margin-top: -166px;
+	margin-left: -65px;
+}
+
+@media (min-width: 1200px) {
   .container-banner__title {
     font-size: 60px;
   }
@@ -138,6 +176,7 @@
 
   .img-girls {
     width: 670px;
+    margin-top: -172px;
   }
 
   .more-than {
@@ -165,7 +204,7 @@
   }
 }
 
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 768px) {
   .container-banner {
     padding: 0;
   }
@@ -209,5 +248,9 @@
 
   .banner__anchor__link {
     font-size: 25px;
+  }
+
+  .flowers__one, .flowers__two {
+    display: none;
   }
 }
